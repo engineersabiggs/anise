@@ -121,3 +121,10 @@ path = "fuzz_targets/convert_tpc_items.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "fuzz_frames"
+path = "fuzz_targets/fuzz_frames.rs"
+test = false
+doc = false
+bench = false
